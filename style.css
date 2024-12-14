@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(219, 219, 57);
+}
+.row1 {
+    background-color: rgb(235, 154, 5);
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+.rbox1 {
+    width: 500px;
+    height: 60px;
+    padding: 10px;
+    background-color: rgb(196, 35, 35);
+}
+.rbox2 {
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: rgb(189, 23, 23);
+}
+.rbox3 {
+    width: 460px;
+    height: 60px;
+    padding: 10px;
+    margin-left: 800px;
+    background-color: rgb(179, 37, 37);
+}
+.vbox {
+    background-color: rgb(97, 7, 97);
+    width: 850px;
+    height: 120px;
+    margin: 20px 20px 0px;
+}
+.brbox {
+    background-color: rgb(139, 40, 40);
+    width: 850px;
+    height: 350px;
+    margin: 0px 20px 0px;
+}
+.row3 {
+    background-color: rgb(107, 106, 106);
+    display: flex;
+    margin: 20px 20px 0px;
+
+}
+.grnbox {
+    width: 215px;
+    height: 160px;
+    background-color: rgb(4, 104, 4);
+    margin: 15px;
+}
+.row4 {
+    display: flex;
+}
+.marbox {
+    background-color: rgb(99, 3, 3);
+    height: 270px;
+    width: 470px;
+    margin: 10px 20px 0px;
+
+}
+.row34 {
+    display: block;
+}
+.row234 {
+    display: flex;
+}
+.blbox1 {
+    width: 800px;   
+    height: 120px;
+    margin: 5px 40px 5px;
+    background-color: rgb(4, 4, 238);
+}
+.blbox2 {
+    width: 800px;   
+    height: 80px;
+    margin: 10px 40px 5px;
+    background-color: rgb(3, 3, 221);
+}
+.blbox3 {
+    width: 800px;   
+    height: 80px;
+    margin: 10px 40px 5px;
+    background-color: rgb(0, 0, 230);
+}
+.row6 {
+    display: block;
+}
+.r2box {
+    width: 980px;
+    height: 135px;
+    background-color: rgb(219, 2, 2);
+    margin: 10px 30px 5px;
+}
+.row56 {
+    display: flex;
+}
+@media screen and (max-width: 1300px) {
+    .vbox {
+        width: 96%;
+    }
+    .brbox {
+    width: 96%;
+    }
+    .row34 {
+        display: block;
+    }
+    .row234 {
+        display: block;
+    }
+    .row56 {
+        display: block;
+        justify-content: center;
+    }
+    .rbox3 {
+        width: 460px;
+        height: 60px;
+        padding: 10px;
+        margin-left: 100px;
+        background-color: rgb(233, 4, 4);
+    }
+    .blbox1, .blbox2, .blbox3 {
+        width: 90%;
+    }
+    .r2box {
+        width: 93%;
+    }
+}
